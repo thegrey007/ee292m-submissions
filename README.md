@@ -2,8 +2,8 @@
 
 ## Setup (once)
 1. Get your API key from https://292m.ee.stanford.edu
-2. `cp .env.example .env`, then put your key in `.env`
-3. `make check` should print your info and "Key OK"
+2. Run `cp .env.example .env` to create your `.env` file, then put your API key in `.env`
+3. Test: `make check` should print your info and "Key OK"
 
 ## Submitting
 Name each worklog `worklog-<id>.md` (e.g. `worklog-1a.md`, `worklog-1b.md`, `worklog-2a.md`),
